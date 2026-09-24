@@ -1,0 +1,105 @@
+{
+  "version": "v6",
+  "rho": 0.05,
+  "delta": 0.025,
+  "delta_plan": 0.05,
+  "J": 1,
+  "K_grid": [
+    2,
+    8
+  ],
+  "eta_grid": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "mean_fractions": [
+    0.35,
+    0.65
+  ],
+  "N_grid": [
+    256,
+    320,
+    400,
+    500,
+    625,
+    781,
+    977,
+    1221,
+    1526,
+    1907,
+    2384,
+    2980,
+    3725,
+    4657,
+    5821,
+    7276,
+    9095,
+    11369,
+    14211,
+    17764,
+    22204,
+    27756,
+    34694,
+    43368,
+    54210,
+    67763,
+    84703,
+    105879,
+    132349,
+    165436,
+    206795,
+    258494
+  ],
+  "pilot_size": 2048,
+  "design_pilot": 256,
+  "targets": [
+    0.8,
+    0.9
+  ],
+  "outer_pilots": 24,
+  "final_replications": 256,
+  "benchmark_replications": 1024,
+  "pilot_seed": 23092711,
+  "final_seed": 23092712,
+  "benchmark_seed": 23092713,
+  "laws": [
+    {
+      "name": "A",
+      "a": 0.22,
+      "w": 0.15,
+      "b": 0.035,
+      "h": 0.0,
+      "gamma": 0.035,
+      "d": 0.04282623792124927
+    },
+    {
+      "name": "B",
+      "a": 0.3,
+      "w": 0.12,
+      "b": 0.065,
+      "h": 0.5,
+      "gamma": 0.025,
+      "d": 0.03953444185374863
+    },
+    {
+      "name": "C",
+      "a": 0.16,
+      "w": 0.18,
+      "b": 0.095,
+      "h": -0.4,
+      "gamma": 0.02,
+      "d": 0.041242645786248006
+    }
+  ],
+  "known_support": "Exact feature enclosures supplied without probabilities; final endpoints keep global loss bounds.",
+  "selection": "Minimize N then KN; fixed lexical tie-break. Return infeasible if no witnessed budget.",
+  "final_rule": "Use exactly locked N fresh IID anchors per replication, no early stopping.",
+  "benchmarks": "Population-only Gaussian forecast; true-moment Theorem4; naive pilot Gaussian; same-witness oracle; no parameter fitting.",
+  "source_hashes": {
+    "planner.py": "44e80bb04ac232c30e88ae43863b575d2001e968fa57c514d0f543ffac6fdfcc",
+    "laws.py": "876c3ca6e5df279bc2e0632aebca84aec74e6ac656baddf472b0199e535ed9b4",
+    "THEORY.md": "bbfba8cdd946987d47434bd3dd67ec871f5493a3a68f8a2904c160eca75a9600"
+  },
+  "amendment": "Pre-outcome implementation fix: generic scalar variance indexes transformed Y, not the six-dimensional raw covariance. Initial run failed before any pilot or final result."
+}
