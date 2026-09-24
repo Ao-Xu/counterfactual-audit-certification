@@ -1,0 +1,16 @@
+# Optional historical model-source dependencies; not needed by oral_planner_v6
+# or tools/verify_historical.py. Versions observed locally, not a verified
+# training environment lock. Original registered model weights and some
+# upstream generation resources must still be supplied separately.
+-r requirements.txt
+pandas==2.3.3
+scikit-learn==1.7.2
+transformers==4.57.6
+seaborn==0.13.2
+peft==0.18.1
+datasets==4.8.4
+accelerate==1.13.0
+huggingface-hub==0.36.2
+safetensors==0.7.0
+# Select the appropriate CPU/CUDA torch build for the host.
+torch

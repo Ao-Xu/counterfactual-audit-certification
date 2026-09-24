@@ -1,0 +1,2082 @@
+[
+  {
+    "method": "paired_shared",
+    "geometry": 0,
+    "target": 0.8,
+    "planning_crossing": 3456,
+    "region": [
+      2688,
+      4224
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 0,
+    "target": 0.9,
+    "planning_crossing": 3584,
+    "region": [
+      2688,
+      4224
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 1,
+    "target": 0.8,
+    "planning_crossing": 3840,
+    "region": [
+      2944,
+      4864
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 1,
+    "target": 0.9,
+    "planning_crossing": 3968,
+    "region": [
+      2944,
+      4864
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 2,
+    "target": 0.8,
+    "planning_crossing": 5888,
+    "region": [
+      4480,
+      7552
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 2,
+    "target": 0.9,
+    "planning_crossing": 6272,
+    "region": [
+      4480,
+      7552
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 3,
+    "target": 0.8,
+    "planning_crossing": 6016,
+    "region": [
+      4608,
+      8320
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 3,
+    "target": 0.9,
+    "planning_crossing": 6400,
+    "region": [
+      4608,
+      8320
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 4,
+    "target": 0.8,
+    "planning_crossing": 2816,
+    "region": [
+      2176,
+      3328
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 4,
+    "target": 0.9,
+    "planning_crossing": 2816,
+    "region": [
+      2176,
+      3328
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 5,
+    "target": 0.8,
+    "planning_crossing": 3456,
+    "region": [
+      2688,
+      4352
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 5,
+    "target": 0.9,
+    "planning_crossing": 3584,
+    "region": [
+      2688,
+      4352
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 6,
+    "target": 0.8,
+    "planning_crossing": 2944,
+    "region": [
+      2304,
+      3456
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 6,
+    "target": 0.9,
+    "planning_crossing": 2944,
+    "region": [
+      2304,
+      3456
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 7,
+    "target": 0.8,
+    "planning_crossing": 3456,
+    "region": [
+      2688,
+      4480
+    ]
+  },
+  {
+    "method": "paired_shared",
+    "geometry": 7,
+    "target": 0.9,
+    "planning_crossing": 3712,
+    "region": [
+      2688,
+      4480
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 0,
+    "target": 0.8,
+    "planning_crossing": 7040,
+    "region": [
+      6144,
+      8192
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 0,
+    "target": 0.9,
+    "planning_crossing": 7296,
+    "region": [
+      6144,
+      8192
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 1,
+    "target": 0.8,
+    "planning_crossing": 7424,
+    "region": [
+      6528,
+      9088
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 1,
+    "target": 0.9,
+    "planning_crossing": 7936,
+    "region": [
+      6528,
+      9088
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 2,
+    "target": 0.8,
+    "planning_crossing": 11136,
+    "region": [
+      9472,
+      13952
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 2,
+    "target": 0.9,
+    "planning_crossing": 11904,
+    "region": [
+      9472,
+      13952
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 3,
+    "target": 0.8,
+    "planning_crossing": 11264,
+    "region": [
+      9344,
+      13952
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 3,
+    "target": 0.9,
+    "planning_crossing": 11904,
+    "region": [
+      9344,
+      13952
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 4,
+    "target": 0.8,
+    "planning_crossing": 6016,
+    "region": [
+      5376,
+      6656
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 4,
+    "target": 0.9,
+    "planning_crossing": 6016,
+    "region": [
+      5376,
+      6656
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 5,
+    "target": 0.8,
+    "planning_crossing": 6912,
+    "region": [
+      5888,
+      8064
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 5,
+    "target": 0.9,
+    "planning_crossing": 7168,
+    "region": [
+      5888,
+      8064
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 6,
+    "target": 0.8,
+    "planning_crossing": 6144,
+    "region": [
+      5504,
+      6784
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 6,
+    "target": 0.9,
+    "planning_crossing": 6272,
+    "region": [
+      5504,
+      6784
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 7,
+    "target": 0.8,
+    "planning_crossing": 6912,
+    "region": [
+      6016,
+      8192
+    ]
+  },
+  {
+    "method": "paired_split",
+    "geometry": 7,
+    "target": 0.9,
+    "planning_crossing": 7296,
+    "region": [
+      6016,
+      8192
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 0,
+    "target": 0.8,
+    "planning_crossing": 3584,
+    "region": [
+      2816,
+      4352
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 0,
+    "target": 0.9,
+    "planning_crossing": 3712,
+    "region": [
+      2816,
+      4352
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 1,
+    "target": 0.8,
+    "planning_crossing": 3968,
+    "region": [
+      3072,
+      4992
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 1,
+    "target": 0.9,
+    "planning_crossing": 4096,
+    "region": [
+      3072,
+      4992
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 2,
+    "target": 0.8,
+    "planning_crossing": 6528,
+    "region": [
+      5120,
+      8448
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 2,
+    "target": 0.9,
+    "planning_crossing": 6912,
+    "region": [
+      5120,
+      8448
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 3,
+    "target": 0.8,
+    "planning_crossing": 6528,
+    "region": [
+      5248,
+      8832
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 3,
+    "target": 0.9,
+    "planning_crossing": 7040,
+    "region": [
+      5248,
+      8832
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 4,
+    "target": 0.8,
+    "planning_crossing": 3456,
+    "region": [
+      2816,
+      3968
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 4,
+    "target": 0.9,
+    "planning_crossing": 3456,
+    "region": [
+      2816,
+      3968
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 5,
+    "target": 0.8,
+    "planning_crossing": 3840,
+    "region": [
+      3072,
+      4608
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 5,
+    "target": 0.9,
+    "planning_crossing": 3968,
+    "region": [
+      3072,
+      4608
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 6,
+    "target": 0.8,
+    "planning_crossing": 5760,
+    "region": [
+      5120,
+      6400
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 6,
+    "target": 0.9,
+    "planning_crossing": 5888,
+    "region": [
+      5120,
+      6400
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 7,
+    "target": 0.8,
+    "planning_crossing": 6016,
+    "region": [
+      5120,
+      7040
+    ]
+  },
+  {
+    "method": "separate_shared",
+    "geometry": 7,
+    "target": 0.9,
+    "planning_crossing": 6272,
+    "region": [
+      5120,
+      7040
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 0,
+    "target": 0.8,
+    "planning_crossing": 7296,
+    "region": [
+      6400,
+      8320
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 0,
+    "target": 0.9,
+    "planning_crossing": 7424,
+    "region": [
+      6400,
+      8320
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 1,
+    "target": 0.8,
+    "planning_crossing": 7680,
+    "region": [
+      6656,
+      9088
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 1,
+    "target": 0.9,
+    "planning_crossing": 8064,
+    "region": [
+      6656,
+      9088
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 2,
+    "target": 0.8,
+    "planning_crossing": 12160,
+    "region": [
+      10368,
+      15232
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 2,
+    "target": 0.9,
+    "planning_crossing": 12928,
+    "region": [
+      10368,
+      15232
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 3,
+    "target": 0.8,
+    "planning_crossing": 12032,
+    "region": [
+      10112,
+      15104
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 3,
+    "target": 0.9,
+    "planning_crossing": 12928,
+    "region": [
+      10112,
+      15104
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 4,
+    "target": 0.8,
+    "planning_crossing": 7168,
+    "region": [
+      6400,
+      7808
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 4,
+    "target": 0.9,
+    "planning_crossing": 7168,
+    "region": [
+      6400,
+      7808
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 5,
+    "target": 0.8,
+    "planning_crossing": 7552,
+    "region": [
+      6656,
+      8960
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 5,
+    "target": 0.9,
+    "planning_crossing": 7936,
+    "region": [
+      6656,
+      8960
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 6,
+    "target": 0.8,
+    "planning_crossing": 11136,
+    "region": [
+      10496,
+      12032
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 6,
+    "target": 0.9,
+    "planning_crossing": 11264,
+    "region": [
+      10496,
+      12032
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 7,
+    "target": 0.8,
+    "planning_crossing": 11392,
+    "region": [
+      10112,
+      12672
+    ]
+  },
+  {
+    "method": "separate_split",
+    "geometry": 7,
+    "target": 0.9,
+    "planning_crossing": 11648,
+    "region": [
+      10112,
+      12672
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 0,
+    "target": 0.8,
+    "planning_crossing": 3328,
+    "region": [
+      2560,
+      4096
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 0,
+    "target": 0.9,
+    "planning_crossing": 3328,
+    "region": [
+      2560,
+      4096
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 1,
+    "target": 0.8,
+    "planning_crossing": 3712,
+    "region": [
+      2816,
+      4736
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 1,
+    "target": 0.9,
+    "planning_crossing": 3840,
+    "region": [
+      2816,
+      4736
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 2,
+    "target": 0.8,
+    "planning_crossing": 5632,
+    "region": [
+      4352,
+      7424
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 2,
+    "target": 0.9,
+    "planning_crossing": 5888,
+    "region": [
+      4352,
+      7424
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 3,
+    "target": 0.8,
+    "planning_crossing": 5760,
+    "region": [
+      4352,
+      7680
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 3,
+    "target": 0.9,
+    "planning_crossing": 6144,
+    "region": [
+      4352,
+      7680
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 4,
+    "target": 0.8,
+    "planning_crossing": 2688,
+    "region": [
+      2048,
+      3200
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 4,
+    "target": 0.9,
+    "planning_crossing": 2688,
+    "region": [
+      2048,
+      3200
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 5,
+    "target": 0.8,
+    "planning_crossing": 3328,
+    "region": [
+      2560,
+      4224
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 5,
+    "target": 0.9,
+    "planning_crossing": 3456,
+    "region": [
+      2560,
+      4224
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 6,
+    "target": 0.8,
+    "planning_crossing": 2816,
+    "region": [
+      2176,
+      3328
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 6,
+    "target": 0.9,
+    "planning_crossing": 2816,
+    "region": [
+      2176,
+      3328
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 7,
+    "target": 0.8,
+    "planning_crossing": 3328,
+    "region": [
+      2560,
+      4224
+    ]
+  },
+  {
+    "method": "A_moment_current",
+    "geometry": 7,
+    "target": 0.9,
+    "planning_crossing": 3456,
+    "region": [
+      2560,
+      4224
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 0,
+    "target": 0.8,
+    "planning_crossing": 4480,
+    "region": [
+      3712,
+      5248
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 0,
+    "target": 0.9,
+    "planning_crossing": 4608,
+    "region": [
+      3712,
+      5248
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 1,
+    "target": 0.8,
+    "planning_crossing": 3584,
+    "region": [
+      2688,
+      4352
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 1,
+    "target": 0.9,
+    "planning_crossing": 3712,
+    "region": [
+      2688,
+      4352
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 2,
+    "target": 0.8,
+    "planning_crossing": 7552,
+    "region": [
+      6144,
+      9344
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 2,
+    "target": 0.9,
+    "planning_crossing": 7936,
+    "region": [
+      6144,
+      9344
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 3,
+    "target": 0.8,
+    "planning_crossing": 5632,
+    "region": [
+      4352,
+      7552
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 3,
+    "target": 0.9,
+    "planning_crossing": 6016,
+    "region": [
+      4352,
+      7552
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 4,
+    "target": 0.8,
+    "planning_crossing": 3712,
+    "region": [
+      3072,
+      4224
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 4,
+    "target": 0.9,
+    "planning_crossing": 3712,
+    "region": [
+      3072,
+      4224
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 5,
+    "target": 0.8,
+    "planning_crossing": 3200,
+    "region": [
+      2432,
+      3968
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 5,
+    "target": 0.9,
+    "planning_crossing": 3328,
+    "region": [
+      2432,
+      3968
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 6,
+    "target": 0.8,
+    "planning_crossing": 3840,
+    "region": [
+      3200,
+      4352
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 6,
+    "target": 0.9,
+    "planning_crossing": 3840,
+    "region": [
+      3200,
+      4352
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 7,
+    "target": 0.8,
+    "planning_crossing": 3200,
+    "region": [
+      2560,
+      3968
+    ]
+  },
+  {
+    "method": "B_generic_grid",
+    "geometry": 7,
+    "target": 0.9,
+    "planning_crossing": 3328,
+    "region": [
+      2560,
+      3968
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 0,
+    "target": 0.8,
+    "planning_crossing": 2816,
+    "region": [
+      2048,
+      3456
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 0,
+    "target": 0.9,
+    "planning_crossing": 2944,
+    "region": [
+      2048,
+      3456
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 1,
+    "target": 0.8,
+    "planning_crossing": 2560,
+    "region": [
+      1792,
+      3328
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 1,
+    "target": 0.9,
+    "planning_crossing": 2688,
+    "region": [
+      1792,
+      3328
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 2,
+    "target": 0.8,
+    "planning_crossing": 5120,
+    "region": [
+      3584,
+      6912
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 2,
+    "target": 0.9,
+    "planning_crossing": 5504,
+    "region": [
+      3584,
+      6912
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 3,
+    "target": 0.8,
+    "planning_crossing": 3840,
+    "region": [
+      2816,
+      5760
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 3,
+    "target": 0.9,
+    "planning_crossing": 4224,
+    "region": [
+      2816,
+      5760
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 4,
+    "target": 0.8,
+    "planning_crossing": 2304,
+    "region": [
+      1664,
+      2816
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 4,
+    "target": 0.9,
+    "planning_crossing": 2304,
+    "region": [
+      1664,
+      2816
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 5,
+    "target": 0.8,
+    "planning_crossing": 2304,
+    "region": [
+      1664,
+      2944
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 5,
+    "target": 0.9,
+    "planning_crossing": 2432,
+    "region": [
+      1664,
+      2944
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 6,
+    "target": 0.8,
+    "planning_crossing": 2304,
+    "region": [
+      1792,
+      2944
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 6,
+    "target": 0.9,
+    "planning_crossing": 2432,
+    "region": [
+      1792,
+      2944
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 7,
+    "target": 0.8,
+    "planning_crossing": 2304,
+    "region": [
+      1664,
+      3072
+    ]
+  },
+  {
+    "method": "C_generic_fixed",
+    "geometry": 7,
+    "target": 0.9,
+    "planning_crossing": 2432,
+    "region": [
+      1664,
+      3072
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 0,
+    "target": 0.8,
+    "planning_crossing": 3200,
+    "region": [
+      2432,
+      3968
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 0,
+    "target": 0.9,
+    "planning_crossing": 3200,
+    "region": [
+      2432,
+      3968
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 1,
+    "target": 0.8,
+    "planning_crossing": 2816,
+    "region": [
+      2048,
+      3584
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 1,
+    "target": 0.9,
+    "planning_crossing": 2944,
+    "region": [
+      2048,
+      3584
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 2,
+    "target": 0.8,
+    "planning_crossing": 5632,
+    "region": [
+      4224,
+      7552
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 2,
+    "target": 0.9,
+    "planning_crossing": 6016,
+    "region": [
+      4224,
+      7552
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 3,
+    "target": 0.8,
+    "planning_crossing": 4352,
+    "region": [
+      3200,
+      6144
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 3,
+    "target": 0.9,
+    "planning_crossing": 4608,
+    "region": [
+      3200,
+      6144
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 4,
+    "target": 0.8,
+    "planning_crossing": 2560,
+    "region": [
+      1920,
+      3072
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 4,
+    "target": 0.9,
+    "planning_crossing": 2560,
+    "region": [
+      1920,
+      3072
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 5,
+    "target": 0.8,
+    "planning_crossing": 2560,
+    "region": [
+      1920,
+      3200
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 5,
+    "target": 0.9,
+    "planning_crossing": 2688,
+    "region": [
+      1920,
+      3200
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 6,
+    "target": 0.8,
+    "planning_crossing": 2688,
+    "region": [
+      2048,
+      3200
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 6,
+    "target": 0.9,
+    "planning_crossing": 2688,
+    "region": [
+      2048,
+      3200
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 7,
+    "target": 0.8,
+    "planning_crossing": 2560,
+    "region": [
+      1920,
+      3328
+    ]
+  },
+  {
+    "method": "D_generic_fixed_matched",
+    "geometry": 7,
+    "target": 0.9,
+    "planning_crossing": 2688,
+    "region": [
+      1920,
+      3328
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 0,
+    "target": 0.8,
+    "planning_crossing": 4480,
+    "region": [
+      3712,
+      5376
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 0,
+    "target": 0.9,
+    "planning_crossing": 4608,
+    "region": [
+      3712,
+      5376
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 1,
+    "target": 0.8,
+    "planning_crossing": 3968,
+    "region": [
+      3200,
+      4864
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 1,
+    "target": 0.9,
+    "planning_crossing": 4096,
+    "region": [
+      3200,
+      4864
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 2,
+    "target": 0.8,
+    "planning_crossing": 7936,
+    "region": [
+      6272,
+      9856
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 2,
+    "target": 0.9,
+    "planning_crossing": 8320,
+    "region": [
+      6272,
+      9856
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 3,
+    "target": 0.8,
+    "planning_crossing": 6144,
+    "region": [
+      4864,
+      8192
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 3,
+    "target": 0.9,
+    "planning_crossing": 6400,
+    "region": [
+      4864,
+      8192
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 4,
+    "target": 0.8,
+    "planning_crossing": 3712,
+    "region": [
+      3072,
+      4096
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 4,
+    "target": 0.9,
+    "planning_crossing": 3712,
+    "region": [
+      3072,
+      4096
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 5,
+    "target": 0.8,
+    "planning_crossing": 3584,
+    "region": [
+      2944,
+      4480
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 5,
+    "target": 0.9,
+    "planning_crossing": 3840,
+    "region": [
+      2944,
+      4480
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 6,
+    "target": 0.8,
+    "planning_crossing": 3840,
+    "region": [
+      3200,
+      4352
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 6,
+    "target": 0.9,
+    "planning_crossing": 3840,
+    "region": [
+      3200,
+      4352
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 7,
+    "target": 0.8,
+    "planning_crossing": 3712,
+    "region": [
+      2944,
+      4480
+    ]
+  },
+  {
+    "method": "generic_fixed_Hledger",
+    "geometry": 7,
+    "target": 0.9,
+    "planning_crossing": 3840,
+    "region": [
+      2944,
+      4480
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 0,
+    "target": 0.8,
+    "planning_crossing": 3968,
+    "region": [
+      3200,
+      4736
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 0,
+    "target": 0.9,
+    "planning_crossing": 4096,
+    "region": [
+      3200,
+      4736
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 1,
+    "target": 0.8,
+    "planning_crossing": 3584,
+    "region": [
+      2688,
+      4352
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 1,
+    "target": 0.9,
+    "planning_crossing": 3712,
+    "region": [
+      2688,
+      4352
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 2,
+    "target": 0.8,
+    "planning_crossing": 6656,
+    "region": [
+      5248,
+      8576
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 2,
+    "target": 0.9,
+    "planning_crossing": 7040,
+    "region": [
+      5248,
+      8576
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 3,
+    "target": 0.8,
+    "planning_crossing": 5248,
+    "region": [
+      3968,
+      6912
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 3,
+    "target": 0.9,
+    "planning_crossing": 5504,
+    "region": [
+      3968,
+      6912
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 4,
+    "target": 0.8,
+    "planning_crossing": 3328,
+    "region": [
+      2688,
+      3840
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 4,
+    "target": 0.9,
+    "planning_crossing": 3328,
+    "region": [
+      2688,
+      3840
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 5,
+    "target": 0.8,
+    "planning_crossing": 3200,
+    "region": [
+      2560,
+      3968
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 5,
+    "target": 0.9,
+    "planning_crossing": 3328,
+    "region": [
+      2560,
+      3968
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 6,
+    "target": 0.8,
+    "planning_crossing": 3456,
+    "region": [
+      2816,
+      3968
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 6,
+    "target": 0.9,
+    "planning_crossing": 3456,
+    "region": [
+      2816,
+      3968
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 7,
+    "target": 0.8,
+    "planning_crossing": 3328,
+    "region": [
+      2560,
+      4096
+    ]
+  },
+  {
+    "method": "generic_fixed_loose_range",
+    "geometry": 7,
+    "target": 0.9,
+    "planning_crossing": 3456,
+    "region": [
+      2560,
+      4096
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 0,
+    "target": 0.8,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 0,
+    "target": 0.9,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 1,
+    "target": 0.8,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 1,
+    "target": 0.9,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 2,
+    "target": 0.8,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 2,
+    "target": 0.9,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 3,
+    "target": 0.8,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 3,
+    "target": 0.9,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 4,
+    "target": 0.8,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 4,
+    "target": 0.9,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 5,
+    "target": 0.8,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 5,
+    "target": 0.9,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 6,
+    "target": 0.8,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 6,
+    "target": 0.9,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 7,
+    "target": 0.8,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "generic_fixed_Hoeffding",
+    "geometry": 7,
+    "target": 0.9,
+    "planning_crossing": null,
+    "region": [
+      512,
+      16384
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 0,
+    "target": 0.8,
+    "planning_crossing": 3968,
+    "region": [
+      3200,
+      4736
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 0,
+    "target": 0.9,
+    "planning_crossing": 4096,
+    "region": [
+      3200,
+      4736
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 1,
+    "target": 0.8,
+    "planning_crossing": 3712,
+    "region": [
+      2944,
+      4736
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 1,
+    "target": 0.9,
+    "planning_crossing": 3840,
+    "region": [
+      2944,
+      4736
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 2,
+    "target": 0.8,
+    "planning_crossing": 6656,
+    "region": [
+      5248,
+      8576
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 2,
+    "target": 0.9,
+    "planning_crossing": 7168,
+    "region": [
+      5248,
+      8576
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 3,
+    "target": 0.8,
+    "planning_crossing": 5504,
+    "region": [
+      4352,
+      7424
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 3,
+    "target": 0.9,
+    "planning_crossing": 5888,
+    "region": [
+      4352,
+      7424
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 4,
+    "target": 0.8,
+    "planning_crossing": 3328,
+    "region": [
+      2816,
+      3840
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 4,
+    "target": 0.9,
+    "planning_crossing": 3328,
+    "region": [
+      2816,
+      3840
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 5,
+    "target": 0.8,
+    "planning_crossing": 3456,
+    "region": [
+      2816,
+      4224
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 5,
+    "target": 0.9,
+    "planning_crossing": 3584,
+    "region": [
+      2816,
+      4224
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 6,
+    "target": 0.8,
+    "planning_crossing": 3456,
+    "region": [
+      2816,
+      3968
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 6,
+    "target": 0.9,
+    "planning_crossing": 3456,
+    "region": [
+      2816,
+      3968
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 7,
+    "target": 0.8,
+    "planning_crossing": 3456,
+    "region": [
+      2816,
+      4352
+    ]
+  },
+  {
+    "method": "linear_marginal_EB",
+    "geometry": 7,
+    "target": 0.9,
+    "planning_crossing": 3584,
+    "region": [
+      2816,
+      4352
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 0,
+    "target": 0.8,
+    "planning_crossing": 3456,
+    "region": [
+      2688,
+      4224
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 0,
+    "target": 0.9,
+    "planning_crossing": 3584,
+    "region": [
+      2688,
+      4224
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 1,
+    "target": 0.8,
+    "planning_crossing": 4096,
+    "region": [
+      3328,
+      5248
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 1,
+    "target": 0.9,
+    "planning_crossing": 4352,
+    "region": [
+      3328,
+      5248
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 2,
+    "target": 0.8,
+    "planning_crossing": 6272,
+    "region": [
+      4736,
+      8448
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 2,
+    "target": 0.9,
+    "planning_crossing": 6656,
+    "region": [
+      4736,
+      8448
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 3,
+    "target": 0.8,
+    "planning_crossing": 6400,
+    "region": [
+      4992,
+      8448
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 3,
+    "target": 0.9,
+    "planning_crossing": 6784,
+    "region": [
+      4992,
+      8448
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 4,
+    "target": 0.8,
+    "planning_crossing": 2816,
+    "region": [
+      2176,
+      3328
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 4,
+    "target": 0.9,
+    "planning_crossing": 2816,
+    "region": [
+      2176,
+      3328
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 5,
+    "target": 0.8,
+    "planning_crossing": 3840,
+    "region": [
+      3072,
+      4608
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 5,
+    "target": 0.9,
+    "planning_crossing": 3968,
+    "region": [
+      3072,
+      4608
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 6,
+    "target": 0.8,
+    "planning_crossing": 2816,
+    "region": [
+      2304,
+      3328
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 6,
+    "target": 0.9,
+    "planning_crossing": 2944,
+    "region": [
+      2304,
+      3328
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 7,
+    "target": 0.8,
+    "planning_crossing": 3840,
+    "region": [
+      3072,
+      4736
+    ]
+  },
+  {
+    "method": "linear_marginal_KL",
+    "geometry": 7,
+    "target": 0.9,
+    "planning_crossing": 4096,
+    "region": [
+      3072,
+      4736
+    ]
+  }
+]

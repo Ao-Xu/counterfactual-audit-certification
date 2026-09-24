@@ -1,0 +1,128 @@
+{
+  "version": "oral_efficiency_v2",
+  "frozen_utc": "2026-09-23T03:29:52.985721+00:00",
+  "rho": 0.05,
+  "delta": 0.025,
+  "primary": {
+    "reference_styles": [
+      -1,
+      1
+    ],
+    "style_weights": [
+      0.5,
+      0.5
+    ],
+    "mode": "enumerated",
+    "anchor_A": "IID uniform signs; independent task draws, not duplicated audit observations",
+    "factual": [
+      0.55,
+      0.3,
+      0.03
+    ],
+    "candidate_coefficients": [
+      [
+        0.52,
+        0.31,
+        -0.03
+      ],
+      [
+        0.525,
+        0.31,
+        -0.03
+      ],
+      [
+        0.53,
+        0.31,
+        -0.03
+      ]
+    ],
+    "candidate_names": [
+      "gain030",
+      "gain025",
+      "gain020"
+    ],
+    "m_equals_n": true,
+    "n_grid": [
+      128,
+      192,
+      256,
+      384,
+      512,
+      768,
+      1024,
+      1536,
+      2048,
+      3072,
+      4096,
+      6144,
+      8192,
+      12288,
+      16384,
+      24576,
+      32768,
+      49152,
+      65536,
+      98304,
+      131072,
+      196608,
+      262144
+    ],
+    "replications": 1000,
+    "seed": 2309202631,
+    "generic_dual_eta_grid": {
+      "start": 0.001,
+      "stop": 2.0,
+      "count": 80,
+      "spacing": "geometric"
+    },
+    "generic_calibration": "first half tune eta, second half variance; audit independent",
+    "methods": [
+      "paired_KL",
+      "separate_KL",
+      "generic_paired_DRO"
+    ],
+    "delta_scope": "each method controls its J-candidate family at .025; not simultaneous across different methods",
+    "primary_efficiency": "lowest grid budget whose power and every larger-budget power reach .8/.9; report point crossings and conservative Wilson lower crossings; total anchors m+n, no interpolated threshold"
+  },
+  "allocation": {
+    "geometries": {
+      "sibling_dominated": 0.002,
+      "anchor_dominated": 0.12
+    },
+    "factual": [
+      0.5,
+      0.15,
+      0.06
+    ],
+    "paired_mean": -0.05,
+    "paired_style": -0.12,
+    "J": 1,
+    "m_grid": [
+      1024,
+      4096,
+      16384,
+      65536
+    ],
+    "n_grid": [
+      256,
+      1024,
+      4096,
+      16384
+    ],
+    "K_grid": [
+      2,
+      8,
+      32
+    ],
+    "replications": 300,
+    "seed": 2309202632,
+    "mode": "conditionally IID siblings; same K in cal/audit; m,n independently varied",
+    "report_budgets": [
+      "m+n independent anchors",
+      "K*(m+n) paired loss evaluations"
+    ]
+  },
+  "compute_estimate": "CPU only: primary <2 min using exact sufficient statistics; independent m/n/K grid <15 min; artifact/provenance audit <10 min. No GPU/training unless untouched evaluation data and a feasible frozen protocol are established.",
+  "real_model": "retain rho .05; inventory source contexts/structures by IDs only before any new outcomes; do not recycle seen data",
+  "scientific_scope": "primary paired and separate population envelopes equal and strictly negative; all methods asymptotically capable; no outcome-dependent parameter revision"
+}

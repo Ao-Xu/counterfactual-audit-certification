@@ -1,0 +1,48 @@
+{
+  "version": "record_prospective_v1",
+  "frozen_utc": "2026-09-23T05:42:59.632472+00:00",
+  "source_url": "https://dl.fbaipublicfiles.com/glue/superglue/data/v2/ReCoRD.zip",
+  "source_role": "train.jsonl only; one lowest-id valid QA per distinct article/passsage",
+  "model": "existing Qwen learner with fixed LoRA checkpoints; no new training",
+  "policies": [
+    "baseline_0",
+    "rgf_5000",
+    "rule_5000",
+    "rgf_15000",
+    "rule_15000"
+  ],
+  "training_seed": 4101,
+  "training_steps": 1000,
+  "rho": 0.05,
+  "delta": 0.025,
+  "delta_scope": "per method across J=4 candidates",
+  "primary_loss": "1-token-F1 under official SQuAD-style normalization; maximum over annotated answers",
+  "secondary_loss": "1-EM descriptive",
+  "nu": "uniform four frozen content-preserving prompt formats, exactly enumerated",
+  "calibration": 5000,
+  "audit": 10000,
+  "test": 2000,
+  "split_seed": 23092643,
+  "source_eligibility": "Deduplicate article ID and normalized passage hash; exclude every original SQuAD train/dev and known retrieval context hash; all four complete chat prompts <=1024 tokens; at least one valid exact-span answer of 1..30 tokens; query contains exactly one @placeholder; no model-dependent filtering",
+  "query_instruction": "Read the passage and fill @placeholder in the query. Return only the exact entity span from the passage, without explanation.",
+  "selection": "smallest negative bound, factual fallback; one immutable decision per method before opening test predictions",
+  "methods": [
+    "paired_KL_Hoeffding_WOR",
+    "generic_exact_DRO_Hoeffding_WOR"
+  ],
+  "eta_grid": {
+    "low": 0.001,
+    "high": 2,
+    "count": 80
+  },
+  "target": "Uniform finite eligible article catalog; conditional chi-square shifts over four prompt formats. Random disjoint simple-random-without-replacement role blocks. Bounds use the WOR bounded-MGF comparison, not an unjustified IID variance certificate.",
+  "test_rule": "Evaluate all frozen candidates on sealed test only after immutable decisions; report all signs and factual fallback. No rerun or tuning after results.",
+  "generation": {
+    "greedy": true,
+    "max_new_tokens": 32,
+    "batch_size": 32
+  },
+  "runtime_limit_minutes": 55,
+  "feasibility_gate": "Require >=17000 eligible unseen distinct passages/articles and fixed checkpoint hashes before any outcome. If unavailable, record blocker without choosing a different benchmark or changing eligibility.",
+  "semantics": "Conditional on benchmark gold answers and text-preserving format edits. No claim of absence from unknown foundation-model pretraining."
+}

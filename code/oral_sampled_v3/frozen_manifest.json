@@ -1,0 +1,75 @@
+{
+  "version": "sampled_v3",
+  "frozen_utc": "2026-09-23T05:36:35.343773+00:00",
+  "rho": 0.05,
+  "delta": 0.025,
+  "B": 1,
+  "J": 3,
+  "robust_margin": 0.025,
+  "correlations": [
+    -0.5,
+    0,
+    0.8,
+    0.98
+  ],
+  "anchor_scales": [
+    0.04,
+    0.12
+  ],
+  "sensitivity_scales": [
+    0.04,
+    0.12
+  ],
+  "heterogeneity": [
+    0,
+    0.8
+  ],
+  "nuisance_support": [
+    4,
+    64
+  ],
+  "candidate_sensitivity_multipliers": [
+    0.75,
+    1,
+    1.25
+  ],
+  "total_anchors": [
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768
+  ],
+  "calibration_fractions": [
+    0.125,
+    0.25,
+    0.5,
+    0.75,
+    0.875
+  ],
+  "K": [
+    2,
+    8,
+    32
+  ],
+  "eta_grid": {
+    "low": 0.01,
+    "high": 2,
+    "count": 31
+  },
+  "planning_reps": 200,
+  "confirmation_reps": 400,
+  "planning_seed": 23092641,
+  "confirmation_seed": 23092642,
+  "methods": [
+    "paired_KL",
+    "separate_KL",
+    "generic_DRO_EB"
+  ],
+  "primary_candidate": 1,
+  "allocation_rule": "For each geometry/method and target .8/.9, minimum budget grid cell with planning Wilson lower power >= target; separate objectives anchors and K*anchors, tie-break cost then K then m. Freeze choices before independent confirmation. Failed confirmation retained; do not retune.",
+  "generic": "Quadratic chi-square dual estimated via unbiased within-anchor disjoint sibling pairs; empirical Bernstein on anchor response Y=M+Q/(4 eta), simultaneous 31 eta grid and J policies. Uses all independent anchors, m=0 permitted; no wasted calibration. Positive density constraint relaxed; exactly same population envelope as paired in these frozen local geometries.",
+  "dgp": "A,W,H independent uniform signs; S uniform on L equally spaced standardized zero-mean unit-variance states. hmult=(1+hH)/sqrt(1+h^2). f=.5+a*A-.5*b*hmult*S. c_j=.5-d_j+a*(r*A+sqrt(1-r^2)*W)+(k_j-.5)*b*hmult*S; d_j=.025+sqrt(rho)*k_j*b. All paired and separate population envelopes exactly -.025.",
+  "scope": "CPU exact sufficient statistics of independently sampled loss blocks. Full factorial; all negative and censored results retained. Allocation minima are grid estimates, independently checked, not universal information lower bounds."
+}

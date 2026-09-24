@@ -1,0 +1,1042 @@
+{
+  "snapshot_utc": "2026-09-23T17:00:04.166899+00:00",
+  "files": [
+    {
+      "path": "tools/figure_sources/plot_main_evidence.py",
+      "source": "research/plot_main_evidence.py",
+      "bytes": 5941,
+      "sha256": "3e931692a849bcefe2f1d4cac366797651b61eb3d893ef4cfd2fdd3fc4c8ce17"
+    },
+    {
+      "path": "tools/figure_sources/layout_intro_pdf.py",
+      "source": "research/layout_intro_pdf.py",
+      "bytes": 5434,
+      "sha256": "58ef5c4586a6fe38c84052dcf63f2e400bb046076baecc654b49a7f3e8793c82"
+    },
+    {
+      "path": "tools/figure_sources/plot_planner_costs.py",
+      "source": "research/plot_planner_costs.py",
+      "bytes": 3011,
+      "sha256": "b0b27f5a78521c91d09898f276f46103d686cb943d3b19edd719a80e6c13d2c6"
+    },
+    {
+      "path": "tools/figure_sources/figure_repairs.py",
+      "source": "research/figure_repairs.py",
+      "bytes": 64116,
+      "sha256": "8c8d4e7cf910c981e56e9342d8849b3e13e8846d54648c49751e0bf2bc8fb884"
+    },
+    {
+      "path": "figure_inputs/metadata/figure_repairs.md",
+      "source": "research/figure_repairs.md",
+      "bytes": 25777,
+      "sha256": "4705934d031d21f78f2ce784d33da3ffe27414cc36ebf7051d64328f7c38a1df"
+    },
+    {
+      "path": "figure_inputs/metadata/main_figure_provenance.json",
+      "source": "research/main_figure_provenance.json",
+      "bytes": 726,
+      "sha256": "11b92c4cb3f2a961230171be4c31a8f17f706feaeef965888d31b5c23ceec27a"
+    },
+    {
+      "path": "figure_inputs/metadata/intro_figure_provenance.json",
+      "source": "research/intro_figure_provenance.json",
+      "bytes": 2326,
+      "sha256": "cf09ab8da98d56d6de7dea259c86019cb5d45e936f8901f46a09c41ed417e34a"
+    },
+    {
+      "path": "figure_inputs/metadata/cost_figure_provenance.json",
+      "source": "research/cost_figure_provenance.json",
+      "bytes": 480,
+      "sha256": "4c515188a0b9de8974d6027564e317ead254d147734d7b10c9d07761c67f1a0a"
+    },
+    {
+      "path": "figure_inputs/metadata/initial_manifest.json",
+      "source": "build/revision/figure_audit/repairs/initial_manifest.json",
+      "bytes": 8915,
+      "sha256": "82e51e4ea35f20fd05b99201f95c669fa9422a6ee96a1781528777bc6f82b54a"
+    },
+    {
+      "path": "figure_inputs/metadata/repair_manifest.json",
+      "source": "build/revision/figure_audit/repairs/repair_manifest.json",
+      "bytes": 33500,
+      "sha256": "e67ee62630f9b313c9d361c77470adb99be9bce932d2bdd94804d2764c0e66fa"
+    },
+    {
+      "path": "figure_inputs/metadata/staged_checks.json",
+      "source": "build/revision/figure_audit/repairs/staged_checks.json",
+      "bytes": 9747,
+      "sha256": "f4cd8951cd3be17adb7c41a05a425ded5aac49dd0c867279f23a2cc8cd38e24d"
+    },
+    {
+      "path": "figure_inputs/intro.pdf",
+      "source": "figures/intro.pdf",
+      "bytes": 437310,
+      "sha256": "4ed930753352361e4f83430716285006c2d614353fe93c5373065b55d9f106d0"
+    },
+    {
+      "path": "figure_outputs/figures/audit_evidence.pdf",
+      "source": "figures/audit_evidence.pdf",
+      "bytes": 46805,
+      "sha256": "6bbad7a2e31b9da8d3c5c2d4d004041c4fcd8c4e5aa8ff9bea62d615b73a24b7"
+    },
+    {
+      "path": "figure_outputs/figures/audit_evidence.svg",
+      "source": "figures/audit_evidence.svg",
+      "bytes": 78423,
+      "sha256": "7394b9bfca8b4d6fa549169aaabf5a2593b9be7fea97aa2702003e0859a2230d"
+    },
+    {
+      "path": "figure_outputs/figures/intro_audited.pdf",
+      "source": "figures/intro_audited.pdf",
+      "bytes": 1797333,
+      "sha256": "aac7d06c49d420bf0fc6d3ef9a92051b62104556c3b4a21432e7bcb77728eb1a"
+    },
+    {
+      "path": "figure_outputs/figures/intro_audited.svg",
+      "source": "figures/intro_audited.svg",
+      "bytes": 858609,
+      "sha256": "86605068a410879ce3cf3c0eaa7a54458dbe5e46d1aa8a1a00c6eb48ba628cfd"
+    },
+    {
+      "path": "figure_outputs/experiments/oral_planner_v6/costs.pdf",
+      "source": "experiments/oral_planner_v6/costs.pdf",
+      "bytes": 34633,
+      "sha256": "c9facdfb93c867e8ce4ec5e84d704373bffb73caa4b332dc0fe4540b7c87a5de"
+    },
+    {
+      "path": "figure_outputs/experiments/oral_planner_v6/costs.svg",
+      "source": "experiments/oral_planner_v6/costs.svg",
+      "bytes": 19832,
+      "sha256": "261917bddc63184018dc8e620d6fe8d13325fcd6eda3b565fefe24cb34e6ef0b"
+    },
+    {
+      "path": "figure_inputs/metadata/reviewed_artifacts.json",
+      "source": "build/revision/figure_audit/repairs/reviewed_artifacts.json",
+      "bytes": 15805,
+      "sha256": "5431e6a2e4ddb3f056576070cbbacea1b333772ea8e7023b96f2897409ec5365"
+    },
+    {
+      "path": "figure_inputs/metadata/installed_manifest.json",
+      "source": "build/revision/figure_audit/repairs/installed_manifest.json",
+      "bytes": 11032,
+      "sha256": "6f3b1c6499913e0310dd26b6ebc51b94f357e6aca09a6b73470ba984000a1768"
+    },
+    {
+      "path": "figure_inputs/metadata/dashboard_validation.json",
+      "source": "build/revision/figure_audit/repairs/dashboard_validation.json",
+      "bytes": 7188,
+      "sha256": "06f9e083f6c6564095aca0f23994b4e0807e63f26a368942d35d2f6b20445fbf"
+    },
+    {
+      "path": "figure_inputs/metadata/hans_seed_ci_validation.json",
+      "source": "build/revision/figure_audit/repairs/hans_seed_ci_validation.json",
+      "bytes": 40705,
+      "sha256": "d4225f08d19ffdcdf8dc91a178d376ffcf1e2726c2fd13b89d1c926ab43eefe1"
+    },
+    {
+      "path": "figure_archive/dashboard_four_panel_repaired/fig_real_llm_evidence.pdf",
+      "source": "build/revision/figure_audit/repairs/history/dashboard_four_panel_repaired/fig_real_llm_evidence.pdf",
+      "bytes": 36526,
+      "sha256": "719773d9ca5ce228268067d53fcdf6eea602772724840b7bb703bba11e4ab783"
+    },
+    {
+      "path": "figure_archive/dashboard_four_panel_repaired/fig_real_llm_evidence.svg",
+      "source": "build/revision/figure_audit/repairs/history/dashboard_four_panel_repaired/fig_real_llm_evidence.svg",
+      "bytes": 124137,
+      "sha256": "755fdd32678ca148570ddc69dcea317c33ec6eb782e423794dd2450121eab3ec"
+    },
+    {
+      "path": "figure_archive/dashboard_four_panel_repaired/figure_repairs_four_panel.py",
+      "source": "build/revision/figure_audit/repairs/history/dashboard_four_panel_repaired/figure_repairs_four_panel.py",
+      "bytes": 55746,
+      "sha256": "25b83b7cc240e04f02f8c3efa8d226cef46227685d1bbc11bf8550fe31b24e56"
+    },
+    {
+      "path": "figure_archive/dashboard_four_panel_repaired/installed_manifest.json",
+      "source": "build/revision/figure_audit/repairs/history/dashboard_four_panel_repaired/installed_manifest.json",
+      "bytes": 10621,
+      "sha256": "ad27c0998d7bc3bf4b795ea32ec841f7bed0d1d2ac025881ba894629bbc1472c"
+    },
+    {
+      "path": "figure_archive/dashboard_four_panel_repaired/reviewed_artifacts.json",
+      "source": "build/revision/figure_audit/repairs/history/dashboard_four_panel_repaired/reviewed_artifacts.json",
+      "bytes": 15676,
+      "sha256": "dee1745dd22382191b922572d26ac38e3031c4d7dde9f9e3be2cecd8c0cd1b79"
+    },
+    {
+      "path": "figure_archive/hans_r2_before_seed_ci/fig_hans_external.pdf",
+      "source": "build/revision/figure_audit/repairs/history/hans_r2_before_seed_ci/fig_hans_external.pdf",
+      "bytes": 15334,
+      "sha256": "224aa77903b3ac65f5b556ec15d034e489b2575cc627a5c7e38d9cfb4df35e3f"
+    },
+    {
+      "path": "figure_archive/hans_r2_before_seed_ci/fig_hans_external.svg",
+      "source": "build/revision/figure_audit/repairs/history/hans_r2_before_seed_ci/fig_hans_external.svg",
+      "bytes": 25575,
+      "sha256": "20ac292a6735486f94406ea9b59611929af878ff53bcf5ecd92326de425feae1"
+    },
+    {
+      "path": "figure_archive/hans_r2_before_seed_ci/fig_hans_main.pdf",
+      "source": "build/revision/figure_audit/repairs/history/hans_r2_before_seed_ci/fig_hans_main.pdf",
+      "bytes": 16206,
+      "sha256": "7247b058772aa9c0009b36a2ba9a73930f44e6b789263d3ba522c3f2b1afb38f"
+    },
+    {
+      "path": "figure_archive/hans_r2_before_seed_ci/fig_hans_main.svg",
+      "source": "build/revision/figure_audit/repairs/history/hans_r2_before_seed_ci/fig_hans_main.svg",
+      "bytes": 38986,
+      "sha256": "7959bece5e6f3c6b8fbe2236ec3248b7b996de3e20834c9ef9c046a519fbabbd"
+    },
+    {
+      "path": "figure_archive/hans_r2_before_seed_ci/figure_repairs_r2.md",
+      "source": "build/revision/figure_audit/repairs/history/hans_r2_before_seed_ci/figure_repairs_r2.md",
+      "bytes": 23202,
+      "sha256": "2bbf7519f2e243be24ed1b5dd13e8b1009ace2fa358403463fea5e543dfd5c2e"
+    },
+    {
+      "path": "figure_archive/hans_r2_before_seed_ci/figure_repairs_r2.py",
+      "source": "build/revision/figure_audit/repairs/history/hans_r2_before_seed_ci/figure_repairs_r2.py",
+      "bytes": 57421,
+      "sha256": "1d687d8808119ff61c3fac6ba80f3d0ee9874a81ae20597ed4543c77c7ee1774"
+    },
+    {
+      "path": "figure_archive/hans_r2_before_seed_ci/installed_manifest.json",
+      "source": "build/revision/figure_audit/repairs/history/hans_r2_before_seed_ci/installed_manifest.json",
+      "bytes": 10945,
+      "sha256": "ddd402ad7e51962eee5453f12db1c0af18ec76133f2683c0f8075c472966571e"
+    },
+    {
+      "path": "figure_archive/hans_r2_before_seed_ci/repair_manifest.json",
+      "source": "build/revision/figure_audit/repairs/history/hans_r2_before_seed_ci/repair_manifest.json",
+      "bytes": 32582,
+      "sha256": "72889f455765baa90fae907e40e2db70d4f27764b5041624326ffe04921ef697"
+    },
+    {
+      "path": "figure_archive/hans_r2_before_seed_ci/reviewed_artifacts.json",
+      "source": "build/revision/figure_audit/repairs/history/hans_r2_before_seed_ci/reviewed_artifacts.json",
+      "bytes": 15664,
+      "sha256": "1c5e9fbfa45d3417f2ea9dcf764690e94eebfcec6886e3ad246df6f13c93f89c"
+    },
+    {
+      "path": "figure_inputs/originals/experiments/oral_attribution_v5/factorial_forecast.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\oral_attribution_v5\\factorial_forecast.pdf",
+      "bytes": 20759,
+      "sha256": "4a81ce90e418b9198004e59f0e16bb87367d1ae3fde23ceb3d2ea4abaa2e0991",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/oral_attribution_v5/ablation.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\oral_attribution_v5\\ablation.pdf",
+      "bytes": 13469,
+      "sha256": "b28653dc3748ed68e8f1e8aaab742917fcd9fca07712a0827585ef408d7d0336",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/oral_attribution_v5/path_independent.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\oral_attribution_v5\\path_independent.pdf",
+      "bytes": 14401,
+      "sha256": "4f6c97f682a88934bc8983da2e5fee968b6dffd6fbd82af21b3be01a783f0864",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/oral_shared_v4/covariance_stress.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\oral_shared_v4\\covariance_stress.pdf",
+      "bytes": 25984,
+      "sha256": "b3fd2b3d081f55088fe92b672d02c37629a44bdc2f3502c9c89331e48e601b53",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/oral_attribution_v5/stress_power.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\oral_attribution_v5\\stress_power.pdf",
+      "bytes": 18476,
+      "sha256": "ae56c7e9d4ac4b57712858a9e6eb0b9d3c1adef41e27584cc698112373685523",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/oral_efficiency_v2/power_equal_envelopes.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\oral_efficiency_v2\\power_equal_envelopes.pdf",
+      "bytes": 197328,
+      "sha256": "e872e4f7b22e47ddf9f2fa9c679df75b651c1b2e66eb64e9a0065b51d63d779f",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/oral_efficiency_v2/independent_allocation.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\oral_efficiency_v2\\independent_allocation.pdf",
+      "bytes": 39357,
+      "sha256": "f841c4986b4dc75c0dcdd4eccc6ebd27da8332fb5e260e3888bb59dd2c8e029c",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/oral_efficiency_v2/budget_frontier.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\oral_efficiency_v2\\budget_frontier.pdf",
+      "bytes": 29546,
+      "sha256": "5e74301d3216d19bbdb7b9bcfb88f8100b4bc536085d65da736d8e928ec50ff5",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/oral_upgrade/selection_power.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\oral_upgrade\\selection_power.pdf",
+      "bytes": 37245,
+      "sha256": "1a817f51bfbe2709d21218f790788452225d11fd32ad8eb473b3e1475227c58a",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/oral_upgrade/anchor_floor.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\oral_upgrade\\anchor_floor.pdf",
+      "bytes": 31225,
+      "sha256": "a80fef473f98165e69e2df4385b9fa922a222c5176aded1afb7e670b88b6c5be",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/figures/comparative_utility/fig_comparative_utility.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\figures\\comparative_utility\\fig_comparative_utility.pdf",
+      "bytes": 1018433,
+      "sha256": "deb654303f008c8b16232564e5ee2464cd7508d4ce044464bbb4b8b5fd72b3ea",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/oral_attribution_v5/record.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\oral_attribution_v5\\record.pdf",
+      "bytes": 13877,
+      "sha256": "cd7ac007539526a554afdf08b950477ab2ea49dbf0b6c53bb13871657ac8dba5",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/oral_sampled_v3/retrospective.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\oral_sampled_v3\\retrospective.pdf",
+      "bytes": 37910,
+      "sha256": "c4e61d97a9987201faa8dc1ec6cf9a0cdc71cda718f57ebd8ad25d69360cee0c",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/comparative_utility/qwen_paired_results/fig_qwen_paired_audit.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\comparative_utility\\qwen_paired_results\\fig_qwen_paired_audit.pdf",
+      "bytes": 28358,
+      "sha256": "ba28f66f7e94005badc9da3af666d85f3aa3cb99023e046c88a6dea5474800be",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/llm_cfpt/figures/fig_c5_cluster_scaling.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\llm_cfpt\\figures\\fig_c5_cluster_scaling.pdf",
+      "bytes": 33220,
+      "sha256": "9ad89a75b4f2a2b04b96d2c900d48ecd0653c32f0555c98bbe4061e00190245c",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/llm_cfpt/real_llm_evidence/fig_real_llm_evidence.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\llm_cfpt\\real_llm_evidence\\fig_real_llm_evidence.pdf",
+      "bytes": 992684,
+      "sha256": "f00171ffc781d3900f43d452fbc5f498c27d6828e4ced69fada2a821c00e0c96",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/shift_granularity/p0_outputs/fig_p0_shift_granularity.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\shift_granularity\\p0_outputs\\fig_p0_shift_granularity.pdf",
+      "bytes": 715386,
+      "sha256": "bd0ef481803306630bdb2c5d916b437462c93c0e2a8cf35ed18ffe0883b4170c",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/shift_granularity/boundary_outputs/fig_failure_boundaries.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\shift_granularity\\boundary_outputs\\fig_failure_boundaries.pdf",
+      "bytes": 716242,
+      "sha256": "1d1e0b0e007aef65f349f1d47b6bef04154f88f8f14c90f6d42a799966240e8d",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/identification_audit/hans_reference_sensitivity.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\identification_audit\\hans_reference_sensitivity.pdf",
+      "bytes": 28612,
+      "sha256": "227e534f10543f8e250da519d95e091ecd2464ea3de707a2c57f7fd4eb08ab04",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/identification_audit/hans_shift_response.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\identification_audit\\hans_shift_response.pdf",
+      "bytes": 37291,
+      "sha256": "3b52c23f00528dc85244ce03787703675e9d5103cd78325720018808f5c6f47c",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/oral_upgrade/qa_alignment.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\oral_upgrade\\qa_alignment.pdf",
+      "bytes": 30629,
+      "sha256": "18baf431d7f41be5805236d17c952546b185d024c3c5f89bfa16ee7ebfb93d42",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/hans_suite/outputs/fig_hans_main.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\hans_suite\\outputs\\fig_hans_main.pdf",
+      "bytes": 31977,
+      "sha256": "86924fb2fc12484b19a1321c32735169f412466920ebba8543a8ee025bd5389f",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_inputs/originals/experiments/hans_suite/outputs/fig_hans_external.pdf",
+      "source": "build\\revision\\figure_audit\\repairs\\originals\\experiments\\hans_suite\\outputs\\fig_hans_external.pdf",
+      "bytes": 29400,
+      "sha256": "fe3beeca58646522af156c12edfdecb1d0ee13eb5cf0db06f5e2735f2bf9c244",
+      "evidence_scope": "Immutable supplied graphic for vector-only repair; NOT recovered empirical arrays."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_attribution_v5/factorial_forecast.pdf",
+      "source": "experiments/oral_attribution_v5/factorial_forecast.pdf",
+      "bytes": 21549,
+      "sha256": "43a7670a977b50133d6c8a4a6c944e0a1bf9b46de45ad1e48108b82ca3886635",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_attribution_v5/factorial_forecast.svg",
+      "source": "experiments/oral_attribution_v5/factorial_forecast.svg",
+      "bytes": 50077,
+      "sha256": "3152a5dca945499a81e4069fbda62b5187286c70956a29cb05039e6363f7f21f",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_attribution_v5/ablation.pdf",
+      "source": "experiments/oral_attribution_v5/ablation.pdf",
+      "bytes": 13332,
+      "sha256": "2dfc4e7ca38f28e352aa11ee48ec47387dc099f3bcb2f57f6f75ffae593ac6f3",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_attribution_v5/ablation.svg",
+      "source": "experiments/oral_attribution_v5/ablation.svg",
+      "bytes": 16669,
+      "sha256": "1957a866ed468c2951f07abf57ade4ce2a2455d2ede21a57210c8f8306142008",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_attribution_v5/path_independent.pdf",
+      "source": "experiments/oral_attribution_v5/path_independent.pdf",
+      "bytes": 14890,
+      "sha256": "60db965b9e655f46a4420f24c872439c44601fa08c008626dc30fbdb93fd7820",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_attribution_v5/path_independent.svg",
+      "source": "experiments/oral_attribution_v5/path_independent.svg",
+      "bytes": 26237,
+      "sha256": "adac117dd9ae5814712cde219e2852083dd01f515bb73b3fe7fcf5d8d8874a8f",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_attribution_v5/stress_power.pdf",
+      "source": "experiments/oral_attribution_v5/stress_power.pdf",
+      "bytes": 70270,
+      "sha256": "75363335d4d948e824e8e08543aef67bd136ffdaa325131cc33e3276bd35287a",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_attribution_v5/stress_power.svg",
+      "source": "experiments/oral_attribution_v5/stress_power.svg",
+      "bytes": 549654,
+      "sha256": "1c793e6bc2ffbd93be8427ce9e9ea4ba1755572894963ef716ad0dffd2dd72d5",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_efficiency_v2/power_equal_envelopes.pdf",
+      "source": "experiments/oral_efficiency_v2/power_equal_envelopes.pdf",
+      "bytes": 363556,
+      "sha256": "b570391c94784b6d47ed114f1185343ce738f27e5cf7eb5753653cba7d914fa1",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_efficiency_v2/power_equal_envelopes.svg",
+      "source": "experiments/oral_efficiency_v2/power_equal_envelopes.svg",
+      "bytes": 2706335,
+      "sha256": "2e45baf9a2c21094b0c6162ed5eba4f6d87b54f38adb6f4c10ce61f934d4e1b2",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_efficiency_v2/independent_allocation.pdf",
+      "source": "experiments/oral_efficiency_v2/independent_allocation.pdf",
+      "bytes": 98956,
+      "sha256": "7473232bc8f776bf004c021166316d0eef3d0bf08124d29d97ddb7876f04d0e4",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_efficiency_v2/independent_allocation.svg",
+      "source": "experiments/oral_efficiency_v2/independent_allocation.svg",
+      "bytes": 1931058,
+      "sha256": "ef3e12b6685d60b8774987cf6a685a6e4f20581923e6e1fe14d35178a5246124",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_efficiency_v2/budget_frontier.pdf",
+      "source": "experiments/oral_efficiency_v2/budget_frontier.pdf",
+      "bytes": 59788,
+      "sha256": "008762687dd68bf29e552cc06c63c137f56dc12a14cc3f1fb812303e50f5f73b",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_efficiency_v2/budget_frontier.svg",
+      "source": "experiments/oral_efficiency_v2/budget_frontier.svg",
+      "bytes": 37314,
+      "sha256": "d1042905e36a91dcc3dbdb2413f44e03bbb5b395c12e3128e8e866fe920a6a3f",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_upgrade/selection_power.pdf",
+      "source": "experiments/oral_upgrade/selection_power.pdf",
+      "bytes": 74151,
+      "sha256": "97e5bfbfe5619c8973e002fc2885b35aded2830b803ea914bb1de20cbcc22b8d",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_upgrade/selection_power.svg",
+      "source": "experiments/oral_upgrade/selection_power.svg",
+      "bytes": 129454,
+      "sha256": "99280c94c0f5cc7434e338ebb67200bb962a4da6bae9430a281e88b95e478903",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_upgrade/anchor_floor.pdf",
+      "source": "experiments/oral_upgrade/anchor_floor.pdf",
+      "bytes": 66351,
+      "sha256": "77bef5f331a7f0dc8e2095b6bb0a35b6f4ea3e7fdcceb73e5a58ff0eaee70294",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_upgrade/anchor_floor.svg",
+      "source": "experiments/oral_upgrade/anchor_floor.svg",
+      "bytes": 29854,
+      "sha256": "2de70d1f851396f7a093d62f760cf502da9474e6e52df2a128e1a7b554cfa8d0",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/figures/comparative_utility/fig_comparative_utility.pdf",
+      "source": "figures/comparative_utility/fig_comparative_utility.pdf",
+      "bytes": 28022,
+      "sha256": "84d0c20de6c4d578f0fc83e71c04b892c8fa4cd068657f71b17101245fafcb12",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/figures/comparative_utility/fig_comparative_utility.svg",
+      "source": "figures/comparative_utility/fig_comparative_utility.svg",
+      "bytes": 55278,
+      "sha256": "70f34987b9a50f06aff26a75ef572d88d9677c91c6a78ed144e6fde4965c67da",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_attribution_v5/record.pdf",
+      "source": "experiments/oral_attribution_v5/record.pdf",
+      "bytes": 16825,
+      "sha256": "19d28d098cb4ad599b70ae59a48d491ff8b72f6d2cfe65ab724fcd0db366f596",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_attribution_v5/record.svg",
+      "source": "experiments/oral_attribution_v5/record.svg",
+      "bytes": 541565,
+      "sha256": "6336255c108b3c633b252475afc59f8961b91d08c09a3d8e3745504f5a158c19",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_sampled_v3/retrospective.pdf",
+      "source": "experiments/oral_sampled_v3/retrospective.pdf",
+      "bytes": 53025,
+      "sha256": "2fd702b681ff355866d82364bfc8b59bb8a356bd671d36c970f2993aaa390d4f",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_sampled_v3/retrospective.svg",
+      "source": "experiments/oral_sampled_v3/retrospective.svg",
+      "bytes": 317534,
+      "sha256": "7adc21ad1790ef9eac8718a2d46de49bfdedb88aebb238469e3481947741debc",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/comparative_utility/qwen_paired_results/fig_qwen_paired_audit.pdf",
+      "source": "experiments/comparative_utility/qwen_paired_results/fig_qwen_paired_audit.pdf",
+      "bytes": 15578,
+      "sha256": "420b8884bc8c40fa45bd0ef7d200d30721290f5d1f26cee9e79bdb20a2e996d2",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/comparative_utility/qwen_paired_results/fig_qwen_paired_audit.svg",
+      "source": "experiments/comparative_utility/qwen_paired_results/fig_qwen_paired_audit.svg",
+      "bytes": 24618,
+      "sha256": "7a232f7382fe2bfa7f19ed78b0d5e650aca8d3c1352ee0063ae6ffb8e77e5ab0",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/llm_cfpt/figures/fig_c5_cluster_scaling.pdf",
+      "source": "experiments/llm_cfpt/figures/fig_c5_cluster_scaling.pdf",
+      "bytes": 19412,
+      "sha256": "b8ca50915ff71a5d7e55ae8089e352d559fcff8bf45fe175f1413b1ca1587529",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/llm_cfpt/figures/fig_c5_cluster_scaling.svg",
+      "source": "experiments/llm_cfpt/figures/fig_c5_cluster_scaling.svg",
+      "bytes": 39831,
+      "sha256": "7cf7ca35568fb56c879f5be67f1e57226423d769592cc518b14f14ca7597bf54",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/llm_cfpt/real_llm_evidence/fig_real_llm_evidence.pdf",
+      "source": "experiments/llm_cfpt/real_llm_evidence/fig_real_llm_evidence.pdf",
+      "bytes": 33441,
+      "sha256": "76a3b5abeda7348da73f7a587e817315dd453d5c58b4b68849d2a67c7ada2c71",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/llm_cfpt/real_llm_evidence/fig_real_llm_evidence.svg",
+      "source": "experiments/llm_cfpt/real_llm_evidence/fig_real_llm_evidence.svg",
+      "bytes": 108393,
+      "sha256": "d5984944801fb05d5cb954b732554bd1924dcf74d42bd8bdc8cc8637886322dc",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/shift_granularity/p0_outputs/fig_p0_shift_granularity.pdf",
+      "source": "experiments/shift_granularity/p0_outputs/fig_p0_shift_granularity.pdf",
+      "bytes": 30169,
+      "sha256": "4e439a30f9b464f7ff5d89814d94a543262c52d2ee167b7e2cc75d69704825c4",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/shift_granularity/p0_outputs/fig_p0_shift_granularity.svg",
+      "source": "experiments/shift_granularity/p0_outputs/fig_p0_shift_granularity.svg",
+      "bytes": 103782,
+      "sha256": "70d6d781927742a800c19fc4a7a9b80659dc45a37453b7e21ecb8628a7a0db25",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/shift_granularity/boundary_outputs/fig_failure_boundaries.pdf",
+      "source": "experiments/shift_granularity/boundary_outputs/fig_failure_boundaries.pdf",
+      "bytes": 18982,
+      "sha256": "dcc90976e22dfeda6b2687dec7b58ae278072cfbb1e06eb1bbe5c92ff9a85f85",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/shift_granularity/boundary_outputs/fig_failure_boundaries.svg",
+      "source": "experiments/shift_granularity/boundary_outputs/fig_failure_boundaries.svg",
+      "bytes": 37104,
+      "sha256": "7c537d605a379712fb15b2459d897c12021e7af538343bbfff4e823aacbc6c54",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/identification_audit/hans_reference_sensitivity.pdf",
+      "source": "experiments/identification_audit/hans_reference_sensitivity.pdf",
+      "bytes": 35818,
+      "sha256": "2b62874448cfc2a3bdd02421f47ad54efe008f281dc3d7c00c31ec2b212e5bcd",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/identification_audit/hans_reference_sensitivity.svg",
+      "source": "experiments/identification_audit/hans_reference_sensitivity.svg",
+      "bytes": 82995,
+      "sha256": "3dd084d427b35b281004768f653e82013aa91ee3357bedef19f49af8d0c70b43",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/identification_audit/hans_shift_response.pdf",
+      "source": "experiments/identification_audit/hans_shift_response.pdf",
+      "bytes": 72897,
+      "sha256": "79c36065369a98f6cdf2720b355fdf77f59b7c357a47378379c4ab53fd56db00",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/identification_audit/hans_shift_response.svg",
+      "source": "experiments/identification_audit/hans_shift_response.svg",
+      "bytes": 129094,
+      "sha256": "3dfd0ccc763f3ce15893bde326ec088d3d6bd37ee34385e7657a00242a95462b",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_upgrade/qa_alignment.pdf",
+      "source": "experiments/oral_upgrade/qa_alignment.pdf",
+      "bytes": 74586,
+      "sha256": "3863c4d82f68022a2912a287933e9315ac9ede59673c797ba47aae81a88bc0ca",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/oral_upgrade/qa_alignment.svg",
+      "source": "experiments/oral_upgrade/qa_alignment.svg",
+      "bytes": 53321,
+      "sha256": "4082f80f6b0c20e6095d0b4bf8a7c7d05f057220d589c6ad6afa2465e1403b42",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/hans_suite/outputs/fig_hans_main.pdf",
+      "source": "experiments/hans_suite/outputs/fig_hans_main.pdf",
+      "bytes": 18368,
+      "sha256": "52377e29e42c57e96591ecfda50b9c5632834b6507399b027a23be600d947f8f",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/hans_suite/outputs/fig_hans_main.svg",
+      "source": "experiments/hans_suite/outputs/fig_hans_main.svg",
+      "bytes": 39234,
+      "sha256": "a52eb88a45ba97174871d4076a58b7e620a89e6c85d56bddd9a6da41b7b7877e",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/hans_suite/outputs/fig_hans_external.pdf",
+      "source": "experiments/hans_suite/outputs/fig_hans_external.pdf",
+      "bytes": 15905,
+      "sha256": "1b3e0d99d9f7a238df643b51615c24a94c10347f354fa2e185036abdcf8dfa60",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    },
+    {
+      "path": "figure_outputs/experiments/hans_suite/outputs/fig_hans_external.svg",
+      "source": "experiments/hans_suite/outputs/fig_hans_external.svg",
+      "bytes": 24003,
+      "sha256": "daea61afe3966b660ec3d2e428cfad03cae5de40e7d94170af41371f7317dc02",
+      "evidence_scope": "Bohr reviewed/installed reference output; not a numeric input cache."
+    }
+  ],
+  "repair_version": "2026-09-24-r3-seed-ci",
+  "legacy_eight_figure_identity": [
+    {
+      "path": "figures/comparative_utility/fig_comparative_utility.pdf",
+      "original_sha256": "deb654303f008c8b16232564e5ee2464cd7508d4ce044464bbb4b8b5fd72b3ea",
+      "legacy_identical": true
+    },
+    {
+      "path": "experiments/llm_cfpt/figures/fig_c5_cluster_scaling.pdf",
+      "original_sha256": "9ad89a75b4f2a2b04b96d2c900d48ecd0653c32f0555c98bbe4061e00190245c",
+      "legacy_identical": true
+    },
+    {
+      "path": "experiments/hans_suite/outputs/fig_hans_main.pdf",
+      "original_sha256": "86924fb2fc12484b19a1321c32735169f412466920ebba8543a8ee025bd5389f",
+      "legacy_identical": true
+    },
+    {
+      "path": "experiments/hans_suite/outputs/fig_hans_external.pdf",
+      "original_sha256": "fe3beeca58646522af156c12edfdecb1d0ee13eb5cf0db06f5e2735f2bf9c244",
+      "legacy_identical": true
+    },
+    {
+      "path": "experiments/comparative_utility/qwen_paired_results/fig_qwen_paired_audit.pdf",
+      "original_sha256": "ba28f66f7e94005badc9da3af666d85f3aa3cb99023e046c88a6dea5474800be",
+      "legacy_identical": true
+    },
+    {
+      "path": "experiments/shift_granularity/p0_outputs/fig_p0_shift_granularity.pdf",
+      "original_sha256": "bd0ef481803306630bdb2c5d916b437462c93c0e2a8cf35ed18ffe0883b4170c",
+      "legacy_identical": true
+    },
+    {
+      "path": "experiments/shift_granularity/boundary_outputs/fig_failure_boundaries.pdf",
+      "original_sha256": "1d1e0b0e007aef65f349f1d47b6bef04154f88f8f14c90f6d42a799966240e8d",
+      "legacy_identical": true
+    },
+    {
+      "path": "experiments/llm_cfpt/real_llm_evidence/fig_real_llm_evidence.pdf",
+      "original_sha256": "f00171ffc781d3900f43d452fbc5f498c27d6828e4ced69fada2a821c00e0c96",
+      "legacy_identical": true
+    }
+  ],
+  "repair_mode_counts": {
+    "analytic redraw": 1,
+    "data redraw": 10,
+    "lossless data-vector reflow; empirical data unavailable": 11
+  },
+  "final_review_metadata_included": true,
+  "final_install_metadata_included": true,
+  "figure_repair_input_checks": [
+    {
+      "figure": "figures/comparative_utility/fig_comparative_utility.pdf",
+      "repair_source": "figures/comparative_utility/repair_data/original_formula_source.py",
+      "sha256": "776c8db78ca42cacc51193d5f34b57b925e5270b3ca528ccac7d70e4a72cf788",
+      "packaged_matches": [
+        "overleaf/experiments/comparative_utility/generate_comparative_utility.py"
+      ]
+    },
+    {
+      "figure": "experiments/oral_attribution_v5/factorial_forecast.pdf",
+      "repair_source": "experiments/oral_attribution_v5/repair_data/dense_thresholds.json",
+      "sha256": "83cfcefb1d4ddc127a100f7ca174b013d2dba91c2c16353532c27c1071fa5e28",
+      "packaged_matches": [
+        "oral_attribution_v5/results/dense_thresholds.json"
+      ]
+    },
+    {
+      "figure": "experiments/oral_attribution_v5/factorial_forecast.pdf",
+      "repair_source": "experiments/oral_attribution_v5/repair_data/factorial.csv",
+      "sha256": "02ab95e189e0403cfdd308aff465ebe57e792e4322a5376df1d4ea3ed650aea5",
+      "packaged_matches": [
+        "oral_attribution_v5/results/factorial.csv"
+      ]
+    },
+    {
+      "figure": "experiments/oral_attribution_v5/factorial_forecast.pdf",
+      "repair_source": "experiments/oral_attribution_v5/repair_data/oracle_forecast.json",
+      "sha256": "fc1378d9bd514ba728e016984ad8c0eb6df513c71f0abae126cafb203af01a46",
+      "packaged_matches": [
+        "oral_attribution_v5/results/oracle_forecast.json"
+      ]
+    },
+    {
+      "figure": "experiments/oral_attribution_v5/factorial_forecast.pdf",
+      "repair_source": "experiments/oral_attribution_v5/repair_data/MATCHED_RESULTS_MANIFEST.json",
+      "sha256": "b7709ffb8d2f94bd01b18f8d5b4e04a5659e972336a915a8aa4dacf68c9c1491",
+      "packaged_matches": [
+        "oral_attribution_v5/results/MATCHED_RESULTS_MANIFEST.json"
+      ]
+    },
+    {
+      "figure": "experiments/oral_attribution_v5/path_independent.pdf",
+      "repair_source": "experiments/oral_attribution_v5/repair_data/dense_thresholds.json",
+      "sha256": "83cfcefb1d4ddc127a100f7ca174b013d2dba91c2c16353532c27c1071fa5e28",
+      "packaged_matches": [
+        "oral_attribution_v5/results/dense_thresholds.json"
+      ]
+    },
+    {
+      "figure": "experiments/oral_attribution_v5/path_independent.pdf",
+      "repair_source": "experiments/oral_attribution_v5/repair_data/factorial.csv",
+      "sha256": "02ab95e189e0403cfdd308aff465ebe57e792e4322a5376df1d4ea3ed650aea5",
+      "packaged_matches": [
+        "oral_attribution_v5/results/factorial.csv"
+      ]
+    },
+    {
+      "figure": "experiments/oral_attribution_v5/path_independent.pdf",
+      "repair_source": "experiments/oral_attribution_v5/repair_data/oracle_forecast.json",
+      "sha256": "fc1378d9bd514ba728e016984ad8c0eb6df513c71f0abae126cafb203af01a46",
+      "packaged_matches": [
+        "oral_attribution_v5/results/oracle_forecast.json"
+      ]
+    },
+    {
+      "figure": "experiments/oral_attribution_v5/path_independent.pdf",
+      "repair_source": "experiments/oral_attribution_v5/repair_data/MATCHED_RESULTS_MANIFEST.json",
+      "sha256": "b7709ffb8d2f94bd01b18f8d5b4e04a5659e972336a915a8aa4dacf68c9c1491",
+      "packaged_matches": [
+        "oral_attribution_v5/results/MATCHED_RESULTS_MANIFEST.json"
+      ]
+    },
+    {
+      "figure": "experiments/oral_attribution_v5/ablation.pdf",
+      "repair_source": "experiments/oral_attribution_v5/repair_data/dense_thresholds.json",
+      "sha256": "83cfcefb1d4ddc127a100f7ca174b013d2dba91c2c16353532c27c1071fa5e28",
+      "packaged_matches": [
+        "oral_attribution_v5/results/dense_thresholds.json"
+      ]
+    },
+    {
+      "figure": "experiments/oral_attribution_v5/ablation.pdf",
+      "repair_source": "experiments/oral_attribution_v5/repair_data/factorial.csv",
+      "sha256": "02ab95e189e0403cfdd308aff465ebe57e792e4322a5376df1d4ea3ed650aea5",
+      "packaged_matches": [
+        "oral_attribution_v5/results/factorial.csv"
+      ]
+    },
+    {
+      "figure": "experiments/oral_attribution_v5/ablation.pdf",
+      "repair_source": "experiments/oral_attribution_v5/repair_data/oracle_forecast.json",
+      "sha256": "fc1378d9bd514ba728e016984ad8c0eb6df513c71f0abae126cafb203af01a46",
+      "packaged_matches": [
+        "oral_attribution_v5/results/oracle_forecast.json"
+      ]
+    },
+    {
+      "figure": "experiments/oral_attribution_v5/ablation.pdf",
+      "repair_source": "experiments/oral_attribution_v5/repair_data/MATCHED_RESULTS_MANIFEST.json",
+      "sha256": "b7709ffb8d2f94bd01b18f8d5b4e04a5659e972336a915a8aa4dacf68c9c1491",
+      "packaged_matches": [
+        "oral_attribution_v5/results/MATCHED_RESULTS_MANIFEST.json"
+      ]
+    },
+    {
+      "figure": "experiments/llm_cfpt/figures/fig_c5_cluster_scaling.pdf",
+      "repair_source": "experiments/llm_cfpt/results/repair_data/strict_cluster_scaling.csv",
+      "sha256": "a70abeddec60614606df62ab526d838cfd2d23ba1e3967ffb92b8138da6a1c86",
+      "packaged_matches": [
+        "overleaf/experiments/llm_cfpt/results/strict_cluster_scaling.csv"
+      ]
+    },
+    {
+      "figure": "experiments/hans_suite/outputs/fig_hans_main.pdf",
+      "repair_source": "experiments/hans_suite/outputs/repair_data/results.csv",
+      "sha256": "e96c7b1f61111f7ba35e64ae918d3ea9bdf1c107d32c6f6bbc4737a948c15d83",
+      "packaged_matches": [
+        "overleaf/experiments/hans_suite/outputs/results.csv",
+        "overleaf/experiments/hans_suite/outputs/results_partial.csv"
+      ]
+    },
+    {
+      "figure": "experiments/hans_suite/outputs/fig_hans_external.pdf",
+      "repair_source": "experiments/hans_suite/outputs/repair_data/results.csv",
+      "sha256": "e96c7b1f61111f7ba35e64ae918d3ea9bdf1c107d32c6f6bbc4737a948c15d83",
+      "packaged_matches": [
+        "overleaf/experiments/hans_suite/outputs/results.csv",
+        "overleaf/experiments/hans_suite/outputs/results_partial.csv"
+      ]
+    },
+    {
+      "figure": "experiments/comparative_utility/qwen_paired_results/fig_qwen_paired_audit.pdf",
+      "repair_source": "experiments/comparative_utility/qwen_paired_results/repair_data/qwen_paired_summary.csv",
+      "sha256": "32ea4d2062627f197e26ff8094b4872ad3e2fdf4824cfe0138775ec13c043548",
+      "packaged_matches": [
+        "overleaf/experiments/comparative_utility/qwen_paired_results/qwen_paired_summary.csv"
+      ]
+    },
+    {
+      "figure": "experiments/shift_granularity/p0_outputs/fig_p0_shift_granularity.pdf",
+      "repair_source": "experiments/shift_granularity/p0_outputs/repair_data/p0_aggregate.csv",
+      "sha256": "e33b65e1d2eea543088f68d31ad8404f46b3ed508a11fce70bae08b8dbd64aa7",
+      "packaged_matches": [
+        "overleaf/experiments/shift_granularity/p0_outputs/p0_aggregate.csv"
+      ]
+    },
+    {
+      "figure": "experiments/shift_granularity/p0_outputs/fig_p0_shift_granularity.pdf",
+      "repair_source": "experiments/shift_granularity/p0_outputs/repair_data/p0_all_records.csv",
+      "sha256": "bdf2841d6c73032d1fa32f6f5180bfc52d8a0a6be0e68712d91352274f37919d",
+      "packaged_matches": [
+        "overleaf/experiments/shift_granularity/p0_outputs/p0_all_records.csv"
+      ]
+    },
+    {
+      "figure": "experiments/shift_granularity/p0_outputs/fig_p0_shift_granularity.pdf",
+      "repair_source": "experiments/shift_granularity/p0_outputs/repair_data/p0_manifest.json",
+      "sha256": "69f7bd9b0c4c93506524b1cd11acc182ca0f48c012ef34e034481db5c6279657",
+      "packaged_matches": [
+        "overleaf/experiments/shift_granularity/p0_outputs/p0_manifest.json"
+      ]
+    },
+    {
+      "figure": "experiments/shift_granularity/boundary_outputs/fig_failure_boundaries.pdf",
+      "repair_source": "experiments/shift_granularity/boundary_outputs/repair_data/qwen_corruption_boundary.csv",
+      "sha256": "6a89ab84b03a91b2e7cc159481c6e1c5d82d62e65d171e10d0fe37679627ae19",
+      "packaged_matches": [
+        "overleaf/experiments/shift_granularity/boundary_outputs/qwen_corruption_boundary.csv"
+      ]
+    },
+    {
+      "figure": "experiments/shift_granularity/boundary_outputs/fig_failure_boundaries.pdf",
+      "repair_source": "experiments/shift_granularity/boundary_outputs/repair_data/support_escape_witness.csv",
+      "sha256": "38959fc572b0c225b8f722d416a4c9ad97ac552e9323c300cdd864ddc0a6dd70",
+      "packaged_matches": [
+        "overleaf/experiments/shift_granularity/boundary_outputs/support_escape_witness.csv"
+      ]
+    },
+    {
+      "figure": "experiments/shift_granularity/boundary_outputs/fig_failure_boundaries.pdf",
+      "repair_source": "experiments/shift_granularity/boundary_outputs/repair_data/boundary_manifest.json",
+      "sha256": "023c6d20f6bacee85af1a7a72eb515bacdfad220f613e407db49a9987bcc79b8",
+      "packaged_matches": [
+        "overleaf/experiments/shift_granularity/boundary_outputs/boundary_manifest.json"
+      ]
+    },
+    {
+      "figure": "experiments/llm_cfpt/real_llm_evidence/fig_real_llm_evidence.pdf",
+      "repair_source": "experiments/llm_cfpt/confirmatory_v1/repair_data/lora_metrics.json",
+      "sha256": "ec08b52e59d49cf207940b846044e176e3fb8765a47ae7b69747e070b34a022e",
+      "packaged_matches": [
+        "overleaf/experiments/llm_cfpt/confirmatory_v1/lora_metrics.json"
+      ]
+    },
+    {
+      "figure": "experiments/llm_cfpt/real_llm_evidence/fig_real_llm_evidence.pdf",
+      "repair_source": "experiments/llm_cfpt/crossed_consistency_v4/repair_data/results.json",
+      "sha256": "5e963892d959c122d5b1ca1573e119672d1aa4963b53c1264580232c6e0a94f2",
+      "packaged_matches": [
+        "overleaf/experiments/llm_cfpt/crossed_consistency_v4/results.json"
+      ]
+    },
+    {
+      "figure": "experiments/llm_cfpt/real_llm_evidence/fig_real_llm_evidence.pdf",
+      "repair_source": "experiments/llm_cfpt/transfer_tightness/repair_data/metrics.json",
+      "sha256": "0373a8f6313c2ff83ca707cc25390623089abfe68a854089779af9ee3c3f8885",
+      "packaged_matches": [
+        "overleaf/experiments/llm_cfpt/transfer_tightness/metrics.json"
+      ]
+    },
+    {
+      "figure": "experiments/oral_attribution_v5/stress_power.pdf",
+      "repair_source": "build/revision/figure_audit/repairs/originals/experiments/oral_attribution_v5/stress_power.pdf",
+      "sha256": "ae56c7e9d4ac4b57712858a9e6eb0b9d3c1adef41e27584cc698112373685523",
+      "packaged_matches": [
+        "figure_inputs/originals/experiments/oral_attribution_v5/stress_power.pdf"
+      ]
+    },
+    {
+      "figure": "experiments/oral_efficiency_v2/power_equal_envelopes.pdf",
+      "repair_source": "build/revision/figure_audit/repairs/originals/experiments/oral_efficiency_v2/power_equal_envelopes.pdf",
+      "sha256": "e872e4f7b22e47ddf9f2fa9c679df75b651c1b2e66eb64e9a0065b51d63d779f",
+      "packaged_matches": [
+        "figure_inputs/originals/experiments/oral_efficiency_v2/power_equal_envelopes.pdf"
+      ]
+    },
+    {
+      "figure": "experiments/oral_efficiency_v2/independent_allocation.pdf",
+      "repair_source": "build/revision/figure_audit/repairs/originals/experiments/oral_efficiency_v2/independent_allocation.pdf",
+      "sha256": "f841c4986b4dc75c0dcdd4eccc6ebd27da8332fb5e260e3888bb59dd2c8e029c",
+      "packaged_matches": [
+        "figure_inputs/originals/experiments/oral_efficiency_v2/independent_allocation.pdf"
+      ]
+    },
+    {
+      "figure": "experiments/oral_efficiency_v2/budget_frontier.pdf",
+      "repair_source": "build/revision/figure_audit/repairs/originals/experiments/oral_efficiency_v2/budget_frontier.pdf",
+      "sha256": "5e74301d3216d19bbdb7b9bcfb88f8100b4bc536085d65da736d8e928ec50ff5",
+      "packaged_matches": [
+        "figure_inputs/originals/experiments/oral_efficiency_v2/budget_frontier.pdf"
+      ]
+    },
+    {
+      "figure": "experiments/oral_upgrade/selection_power.pdf",
+      "repair_source": "build/revision/figure_audit/repairs/originals/experiments/oral_upgrade/selection_power.pdf",
+      "sha256": "1a817f51bfbe2709d21218f790788452225d11fd32ad8eb473b3e1475227c58a",
+      "packaged_matches": [
+        "figure_inputs/originals/experiments/oral_upgrade/selection_power.pdf"
+      ]
+    },
+    {
+      "figure": "experiments/oral_upgrade/anchor_floor.pdf",
+      "repair_source": "build/revision/figure_audit/repairs/originals/experiments/oral_upgrade/anchor_floor.pdf",
+      "sha256": "a80fef473f98165e69e2df4385b9fa922a222c5176aded1afb7e670b88b6c5be",
+      "packaged_matches": [
+        "figure_inputs/originals/experiments/oral_upgrade/anchor_floor.pdf"
+      ]
+    },
+    {
+      "figure": "experiments/oral_attribution_v5/record.pdf",
+      "repair_source": "build/revision/figure_audit/repairs/originals/experiments/oral_attribution_v5/record.pdf",
+      "sha256": "cd7ac007539526a554afdf08b950477ab2ea49dbf0b6c53bb13871657ac8dba5",
+      "packaged_matches": [
+        "figure_inputs/originals/experiments/oral_attribution_v5/record.pdf"
+      ]
+    },
+    {
+      "figure": "experiments/oral_sampled_v3/retrospective.pdf",
+      "repair_source": "build/revision/figure_audit/repairs/originals/experiments/oral_sampled_v3/retrospective.pdf",
+      "sha256": "c4e61d97a9987201faa8dc1ec6cf9a0cdc71cda718f57ebd8ad25d69360cee0c",
+      "packaged_matches": [
+        "figure_inputs/originals/experiments/oral_sampled_v3/retrospective.pdf"
+      ]
+    },
+    {
+      "figure": "experiments/identification_audit/hans_reference_sensitivity.pdf",
+      "repair_source": "build/revision/figure_audit/repairs/originals/experiments/identification_audit/hans_reference_sensitivity.pdf",
+      "sha256": "227e534f10543f8e250da519d95e091ecd2464ea3de707a2c57f7fd4eb08ab04",
+      "packaged_matches": [
+        "figure_inputs/originals/experiments/identification_audit/hans_reference_sensitivity.pdf"
+      ]
+    },
+    {
+      "figure": "experiments/identification_audit/hans_shift_response.pdf",
+      "repair_source": "build/revision/figure_audit/repairs/originals/experiments/identification_audit/hans_shift_response.pdf",
+      "sha256": "3b52c23f00528dc85244ce03787703675e9d5103cd78325720018808f5c6f47c",
+      "packaged_matches": [
+        "figure_inputs/originals/experiments/identification_audit/hans_shift_response.pdf"
+      ]
+    },
+    {
+      "figure": "experiments/oral_upgrade/qa_alignment.pdf",
+      "repair_source": "build/revision/figure_audit/repairs/originals/experiments/oral_upgrade/qa_alignment.pdf",
+      "sha256": "18baf431d7f41be5805236d17c952546b185d024c3c5f89bfa16ee7ebfb93d42",
+      "packaged_matches": [
+        "figure_inputs/originals/experiments/oral_upgrade/qa_alignment.pdf"
+      ]
+    }
+  ],
+  "scope": "Byte-identical approved plot source snapshots and exact input/metadata bytes. Source PDFs copied as inputs are not raw empirical arrays. Rendering acceptance remains the figure task responsibility.",
+  "wrapper": "tools/reproduce_figures.py"
+}

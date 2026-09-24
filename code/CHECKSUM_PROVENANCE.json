@@ -1,0 +1,53 @@
+{
+  "original_zip": "ICLR_ORAL_UPGRADE_Paper_Code.zip",
+  "original_zip_sha256": "a14c24406c818ba12ba3b36a46c9e99281946fd6b12f176f875e301c6f080dce",
+  "recorded_utc": "2026-09-23T16:07:00.075707+00:00",
+  "reconstructed": [
+    {
+      "sidecar": "oral_attribution_v5/frozen_manifest.sha256",
+      "source_json": "oral_attribution_v5/frozen_manifest.json",
+      "sha256": "1bd8dd37a66cc1a1d7137622fd625f2dba75a678a560615221c2fc043a1becc1"
+    },
+    {
+      "sidecar": "oral_attribution_v5/stress_lock.sha256",
+      "source_json": "oral_attribution_v5/stress_lock.json",
+      "sha256": "22e8fa2113f09355a6138f7fef0fdba4828ef018930de909b0fd18a11cf9036a"
+    },
+    {
+      "sidecar": "oral_attribution_v5/threshold_lock.sha256",
+      "source_json": "oral_attribution_v5/threshold_lock.json",
+      "sha256": "8ff9135db9b0f74f13577e604e644bd3b3c2c002e1304e55e37bb280b645236f"
+    },
+    {
+      "sidecar": "oral_efficiency_v2/frozen_manifest.sha256",
+      "source_json": "oral_efficiency_v2/frozen_manifest.json",
+      "sha256": "e1508667c116b03908572d53bd9cd21ee153eb0a91d030126701b94f890a4b78"
+    },
+    {
+      "sidecar": "oral_sampled_v3/allocation_lock.sha256",
+      "source_json": "oral_sampled_v3/allocation_lock.json",
+      "sha256": "4a83426f06525a420ceb850efdd4f49e9c2a0ce196c77d9798d5293d002c7035"
+    },
+    {
+      "sidecar": "oral_sampled_v3/frozen_manifest.sha256",
+      "source_json": "oral_sampled_v3/frozen_manifest.json",
+      "sha256": "b52d1272456158c8435b24ec31b7c0bd498e94c41da970a6c314eab5183e769f"
+    },
+    {
+      "sidecar": "oral_shared_v4/allocation_lock.sha256",
+      "source_json": "oral_shared_v4/allocation_lock.json",
+      "sha256": "824924fbe67ea30cfd3702ac83b027ad5f3463d1beae30266f4422e7cff07e7b"
+    },
+    {
+      "sidecar": "oral_shared_v4/frozen_manifest.sha256",
+      "source_json": "oral_shared_v4/frozen_manifest.json",
+      "sha256": "4eb45bdbee8dbc0c3139b634f27c1faedf32b7be0724bf29c88e26a2f1a429d9"
+    },
+    {
+      "sidecar": "oral_upgrade/frozen_manifest.sha256",
+      "source_json": "oral_upgrade/frozen_manifest.json",
+      "sha256": "492bbaf04c6748820a10dead5b37ee6512e424c61c00115c72a07c4ed3650ec0"
+    }
+  ],
+  "qualification": "Recomputed from unchanged original ZIP bytes during code QA; not recovered historical pre-outcome attestations."
+}

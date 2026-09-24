@@ -1,0 +1,5 @@
+# Verified postprocessing only; no model loading or training.
+-r requirements.txt
+pandas==2.3.3
+PyMuPDF==1.27.2.3
+Pillow==12.2.0

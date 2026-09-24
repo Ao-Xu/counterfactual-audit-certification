@@ -1,0 +1,126 @@
+{
+  "version": "identification_audit_v1",
+  "split_seed": 9282026,
+  "seeds": [
+    7201,
+    7202,
+    7203,
+    7204
+  ],
+  "model_path": "/home/dataset-assist-0/home/datas/JZW/hans_policy_v1/model",
+  "python_path": "/home/dataset-assist-0/home/datas/JZW/hans_policy_v1/venv/bin/python",
+  "model_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+  "steps": 240,
+  "max_length": 128,
+  "mnli_anchors_per_step": 32,
+  "hans_anchors_per_step": 32,
+  "views_per_anchor": 4,
+  "learning_rate": 3e-06,
+  "weight_decay": 0.01,
+  "grad_clip": 1.0,
+  "precision": "bf16",
+  "dropout": 0.0,
+  "eval_batch": 256,
+  "workers_per_gpu": 2,
+  "cpu_threads_per_worker": 2,
+  "bootstrap_replicates": 2000,
+  "dashboard_port": 8797,
+  "dispatch_deadline_seconds": 3300,
+  "run_deadline_seconds": 3600,
+  "policies": {
+    "factual": {
+      "q": 0.5,
+      "beta": 0
+    },
+    "P50_paired": {
+      "q": 0.5,
+      "beta": 2
+    },
+    "P995": {
+      "q": 0.995,
+      "beta": 0
+    },
+    "cue70": {
+      "q": 1.0,
+      "beta": 0,
+      "loss_weights": {
+        "mnli": 0.2,
+        "original_hans": 0.1,
+        "augmented_hans": 0.7
+      }
+    },
+    "cue90": {
+      "q": 1.0,
+      "beta": 0,
+      "loss_weights": {
+        "mnli": 0.075,
+        "original_hans": 0.025,
+        "augmented_hans": 0.9
+      }
+    },
+    "cue100": {
+      "q": 1.0,
+      "beta": 0,
+      "loss_weights": {
+        "mnli": 0,
+        "original_hans": 0,
+        "augmented_hans": 1
+      }
+    }
+  },
+  "claim_scope": "Controlled lexical-label correlation in actual CF training, raw model outputs. HANS-template conditional finite catalog, not official full HANS test. Each source template signature is a dependence cluster. No fabricated output sensitivity; no confirmation-based tuning.",
+  "warmup_steps": 240,
+  "cf_pairs_per_step": 32,
+  "loss_weights": {
+    "mnli": 0.4,
+    "original_hans": 0.2,
+    "augmented_hans": 0.4
+  },
+  "rho": 0.05,
+  "rhos": [
+    0.05,
+    0.09,
+    0.16,
+    0.25,
+    0.36
+  ],
+  "delta_family": 0.025,
+  "pilot_seeds": [
+    7201,
+    7202,
+    7203,
+    7204
+  ],
+  "checkpoints": [
+    20,
+    60,
+    120,
+    240
+  ],
+  "reference_q": 0.65,
+  "empirical_alpha": 0.025,
+  "train_hans_count": 600,
+  "eval_max_length": 256,
+  "split_counts": {
+    "dev": 1200,
+    "calibration": 6000,
+    "reference": 6000,
+    "test": 6000
+  },
+  "task_law": "Label-balanced uniform eligible structure catalog; one unique syntactic structure per bundle; roles disjoint random without-replacement partitions",
+  "seed_sd_planning_v7": 0.02701276393228366,
+  "factual_learning_rate": 6e-06,
+  "classifier_lr_multiplier": 5,
+  "initialization_seed": 19282026,
+  "freeze_encoder_layers": 6,
+  "label_smoothing": 0.05,
+  "lr_warmup_steps": 20,
+  "gate_min_policies": 2,
+  "gate_gain_spread": 0.015,
+  "gate_variance_ratio": 2.0,
+  "gate_optimistic_bound_margin": 0.005,
+  "gate_min_gain": 0.005,
+  "development_reused_from": "Previous development data; no claim of unseen confirmation.",
+  "factual_teacher_start": "new common initialization; independent training order per seed",
+  "replication": "New exploratory training interventions, not a replication; previous confirmation splits have been observed. No new confirmation claims without fresh held-out structures."
+}

@@ -1,0 +1,109 @@
+{
+  "version": "sampled_v3",
+  "frozen_utc": "2026-09-23T05:36:35.343773+00:00",
+  "rho": 0.05,
+  "delta": 0.025,
+  "B": 1,
+  "J": 3,
+  "robust_margin": 0.025,
+  "correlations": [
+    -0.5,
+    0,
+    0.8,
+    0.98
+  ],
+  "anchor_scales": [
+    0.04,
+    0.12
+  ],
+  "sensitivity_scales": [
+    0.04,
+    0.12
+  ],
+  "heterogeneity": [
+    0,
+    0.8
+  ],
+  "nuisance_support": [
+    4,
+    64
+  ],
+  "candidate_sensitivity_multipliers": [
+    0.75,
+    1,
+    1.25
+  ],
+  "total_anchors": [
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768
+  ],
+  "calibration_fractions": [
+    0.125,
+    0.25,
+    0.5,
+    0.75,
+    0.875
+  ],
+  "K": [
+    2,
+    8,
+    32
+  ],
+  "eta_grid": {
+    "low": 0.01,
+    "high": 2,
+    "count": 31
+  },
+  "planning_reps": 200,
+  "confirmation_reps": 400,
+  "planning_seed": 23092641,
+  "confirmation_seed": 23092642,
+  "methods": [
+    "paired_KL",
+    "separate_KL",
+    "generic_DRO_EB",
+    "shared_moment"
+  ],
+  "primary_candidate": 1,
+  "allocation_rule": "For each geometry/method and target .8/.9, minimum budget grid cell with planning Wilson lower power >= target; separate objectives anchors and K*anchors, tie-break cost then K then m. Freeze choices before independent confirmation. Failed confirmation retained; do not retune.",
+  "generic": "Quadratic chi-square dual estimated via unbiased within-anchor disjoint sibling pairs; empirical Bernstein on anchor response Y=M+Q/(4 eta), simultaneous 31 eta grid and J policies. Uses all independent anchors, m=0 permitted; no wasted calibration. Positive density constraint relaxed; exactly same population envelope as paired in these frozen local geometries.",
+  "dgp": "A,W,H independent uniform signs; S uniform on L equally spaced standardized zero-mean unit-variance states. hmult=(1+hH)/sqrt(1+h^2). f=.5+a*A-.5*b*hmult*S. c_j=.5-d_j+a*(r*A+sqrt(1-r^2)*W)+(k_j-.5)*b*hmult*S; d_j=.025+sqrt(rho)*k_j*b. All paired and separate population envelopes exactly -.025.",
+  "scope": "CPU exact sufficient statistics of independently sampled loss blocks. Full factorial; all negative and censored results retained. Allocation minima are grid estimates, independently checked, not universal information lower bounds.",
+  "parent_sha256": "b52d1272456158c8435b24ec31b7c0bd498e94c41da970a6c314eab5183e769f",
+  "extension": "Same 64 laws, observations, MC streams and budgets. Shared IID EB mean + KL Q, e=delta/(2J), m=0. Existing methods unchanged. Independent confirmation allocations locked after planning.",
+  "safety_control": "Translate candidate loss by +.025 to yield exact zero robust margin; widths unchanged, bounded losses retained. Report family false acceptance on these null counterparts, not power failures.",
+  "width": "Endpoint minus true robust target, mean and SD across replications; all candidate endpoints retained as summaries.",
+  "stress": {
+    "rho": 0.05,
+    "delta": 0.025,
+    "J": 1,
+    "margin": 0.025,
+    "K": 8,
+    "a": 0.12,
+    "b": 0.18,
+    "h": 0.8,
+    "skew_positive_probability": 0.3,
+    "cov_signs": [
+      -1,
+      0,
+      1
+    ],
+    "cov_coefficient": 0.08,
+    "anchors": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384
+    ],
+    "replications": 400,
+    "seed": 23092645,
+    "moment_anchors": 200000,
+    "description": "All three covariance settings retained. Conditional skew nonzero, cancel its Cov contribution in t; hold Var(mu)=a^2, V=b^2 and robust margin fixed. Fixed eta*=b/(2 sqrt(rho)) used for identity check, generic full frozen grid for certification. No allocation tuning."
+  },
+  "record": "Post-decision ablation reads only runs/audit predictions and immutable original decision, never sealed test; shared uses all 15000 with WOR Hoeffding + KL, e=.025/(2*4)."
+}
